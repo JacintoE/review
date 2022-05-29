@@ -7,8 +7,6 @@ import FeedbackContext from '../context/FeedbackContext';
 
 function FeedbackItem({ item }) {
   const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
-  const [rating, setRating] = useState(7);
-  const [text, setText] = useState('This is an example of feedback item');
 
   return (
     <Card>
